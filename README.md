@@ -20,7 +20,8 @@ var app = angular.module('YourApp', ['angular-jquery-autocomplete']);
 ### View
 
 ```html
-<input id="LabelDevice" placeholder="{{ 'Events_Search' | translate }}" class=" form-control" data-ng-model="event.device.label" autocomplete autocompleteconfig="labelDeviceAutoComplete" />
+<input id="LabelDevice" placeholder="{{ 'Events_Search' | translate }}" class=" form-control"
+data-ng-model="event.device.label" autocomplete autocompleteconfig="labelDeviceAutoComplete" />
 ```
 
 ### Controller
